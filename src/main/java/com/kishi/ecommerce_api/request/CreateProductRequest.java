@@ -125,4 +125,6 @@ public class CreateProductRequest {
     public void setThirdLevelCategory(String thirdLevelCategory) {
         this.thirdLevelCategory = thirdLevelCategory;
     }
+
+
 }

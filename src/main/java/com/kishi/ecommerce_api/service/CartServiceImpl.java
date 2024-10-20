@@ -46,7 +46,7 @@ public class CartServiceImpl implements CartService {
             cartItem.setSize(req.getSize());
 
             CartItem createdCartItem = cartItemService.createCartItem(cartItem);
-            cart.getCartItems().add(createdCartItem)
+            cart.getCartItems().add(createdCartItem);
         }
         return  "item Added to cart";
     }
